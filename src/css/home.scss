@@ -1,0 +1,105 @@
+.banner {
+    height: 700px;
+    // background-image: url('../img/college2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+    align-items:center;
+    justify-content: center;
+}
+
+.overlay {
+    margin-top: 0px;
+    background: rgba(229, 214, 214, 0);
+    padding: 5px;
+
+    h1 {
+        color: #fff;
+
+        span {
+            font-weight: lighter;
+        }
+    }
+}
+
+
+.services-card-icon {
+    height: 230px;
+    object-fit: contain;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.testimonial-card {
+    margin-top: 60px;
+    background-color: #000;
+    
+
+    img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 10px;
+        margin-top: -50px;
+    }
+
+    span {
+        font-weight: lighter;
+    }
+
+    strong {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+  /* PhotoSlider.css */
+
+.photo-slider {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .slider-wrapper {
+    display: flex;
+    animation: slide 20s linear infinite; /* Adjust duration as needed */
+  }
+  
+  .slider-wrapper img {
+    width: 100vw;
+    height: 80vh;
+    margin-right: 10px; /* Adjust spacing between photos */
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    20% {
+      transform: translateX(-25%);
+    }
+    40% {
+      transform: translateX(-50%);
+    }
+    60% {
+      transform: translateX(-75%);
+    }
+    80% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  

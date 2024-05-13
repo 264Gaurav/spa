@@ -1,0 +1,259 @@
+/* .box {
+    height: 100px;
+    background-color: red;
+    margin-bottom: 10px;
+  } */
+
+  .row{
+    align-items: center;
+    margin: auto;
+  }
+
+  .box {
+    align-items: center;
+    height: 130px;
+    border-radius: 15px;
+    background-color: rgba(245, 248, 252, 0.97);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h4{
+    color: red;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 0;
+    
+  }
+  
+
+  h1{
+    padding-left: 9%;
+    padding-right: 5%;
+  }
+
+  h3{
+    margin-left: 23px;
+    padding-bottom: 10px;
+  }
+  
+
+  
+/* .centered-heading {
+    text-align: center;
+} */
+
+  .car-img {
+    height: 80px;
+    width: 120px;
+    /* max-width: 100px;
+    max-height: 100px; */
+  }
+
+  .refresh-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Assuming you want to center it vertically as well */
+  }
+  
+  .refresh-button {
+    background-color: #007bff; /* Blue */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .refresh-button:hover {
+    background-color: #0056b3; /* Darker blue */
+  }
+  
+  .refresh-button:active {
+    background-color: #0056b3; /* Darker blue */
+    transform: translateY(1px);
+  }
+  
+
+
+
+
+
+
+
+
+/* ContactPage.css */
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cont-container1{
+  display: flex;
+  flex-direction: row;
+}
+
+.cont-container2{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.ceo-card {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.ceo-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.ceo-info {
+  text-align: center;
+}
+
+.ceo-info h2 {
+  margin: 0 0 5px;
+  font-size: 24px;
+  color: #333;
+}
+
+.ceo-info p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #666;
+}
+
+
+/* Media queries for responsiveness */
+/* Media queries for responsiveness */
+@media (min-width: 200px) { /* Phones */
+  .contact-page{
+    min-height: 2000px;
+    flex-direction: column;
+  }
+
+  .cont-container1{
+    flex-direction: column;
+  }
+
+  .cont-container2{
+    flex-direction: column;
+  }
+
+  .ceo-card {
+      padding: 30px;
+  }
+
+  .ceo-card img {
+      margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+@media (min-width: 576px) { /* Phones */
+  .contact-page{
+    min-height: 1950px;
+    flex-direction: column;
+  }
+
+  .cont-container1{
+    flex-direction: column;
+  }
+
+  .cont-container2{
+    flex-direction: column;
+  }
+
+  .ceo-card {
+      padding: 30px;
+  }
+
+  .ceo-card img {
+      margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 850px) { /* Tablets */
+
+  .contact-page{
+    min-height: 185vh;
+    flex-direction: column;
+  }
+
+  .cont-container1{
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: row;
+  }
+
+  .cont-container2{
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+  }
+
+  .ceo-card {
+      padding: 20px;
+      margin: 10px;
+  }
+
+  .ceo-card img {
+      margin-bottom: 0;
+      margin-right: 20px;
+  }
+}
+
+ @media (min-width: 990px) {   /*larger screen */
+  .contact-page{
+    margin-top: 0;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  .cont-container1{
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: row;
+  }
+
+  .cont-container2{
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: row;
+  }
+
+  .ceo-card {
+      padding: 20px;
+      margin: 20px;
+  }
+
+  .ceo-card img {
+      margin-bottom: 0;
+      margin-right: 20px;
+  }
+} 
